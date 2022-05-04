@@ -1,0 +1,35 @@
+body{
+	background-color: #adc;
+	font-family: Garamond, Times, Serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+div{
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+input{
+	width: 10%;
+	border-radius: 5px;
+	border-color: #ccc;
+	background-color: #fff;
+	font-family: Garamond, Times, Serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+input:hover{
+	background-color: #eee;
+}
+
+input:active{
+	background-color: #ddd;
+}
+
+#text{
+	text-align: left;
+}

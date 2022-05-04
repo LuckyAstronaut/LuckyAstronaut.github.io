@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Daniel Choi">
+		<meta name = "description" content = "How badly luck can fuck you over">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		
+		<title>Test your luck</title>
+		<link rel = "stylesheet" href = "style.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+		<script src = "script.js"></script>
+
+	</head>
+	<body>
+		<div id = "head">
+			<h2>How Badly Luck Can Fuck You Over</h2>
+		
+		</div>
+		
+		<div id = "text">
+			<p> NASA is currently hiring 10 astronauts for a new space program, Artemis. Including you, there are 5,000 applicants. You are the most qualified out of everyone applying. 
+				Will you be chosen? Let's find out. Below, select the minimum qualification score required to apply. We will assign each applicant a random qualification score from the minimum to 100,
+				pretending that they are evenly distributed, for the most part. Your qualification score will always be 100. As well, select how much weight luck will have on the outcome,
+				out of 100. You will have completely average luck at 50%. If you want, you can also change the number of applicants. Now run the simulation. Good luck!
+			</p>
+			
+		</div>
+		
+		<div id = "game">
+			<label for="qual">Min Qualification:</label>
+			<input type = "range" id = "qual" min = "0" max = "100" oninput = "this.nextElementSibling.value = this.value" value = "70">
+			<output>70</output><br><br>
+			<label for="luck">Luck Weight:</label>
+			<input type = "range" id = "luck" min = "0" max = "100" oninput = "this.nextElementSibling.value = this.value" value = "5">
+			<output>5</output><br><br>
+			<label for="num"># of Applicants:</label>
+			<input type = "number" id = "num" min = "1" max = "20000" value = "5000"><br><br>
+			<input type = "button" id = "submit" value = "Run Simulation!">
+		
+		</div>
+		
+		<div id = "foot">
+			
+		</div>
+	
+	</body>
+
+</html>
