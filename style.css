@@ -43,3 +43,9 @@ input:active{
 		width: 75%;
 	}
 }
+
+@media only screen and (max-width: 1200px){
+	input{
+		width: 33%;
+	}
+}
