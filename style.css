@@ -35,8 +35,7 @@ input:active{
 }
 
 @media only screen and (max-width: 1000px){
-	input{
-		float: left;
+	input, label, output{
 		width: 100%;
 	}
 }
