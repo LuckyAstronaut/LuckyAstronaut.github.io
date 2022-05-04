@@ -12,6 +12,10 @@ div{
 	width: 90%;
 }
 
+#game{
+	margin-bottom:10%;
+}
+
 input{
 	width: 10%;
 	border-radius: 5px;
