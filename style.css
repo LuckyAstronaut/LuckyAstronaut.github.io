@@ -17,7 +17,7 @@ div{
 }
 
 input{
-	width: 10%;
+	width: 20%;
 	border-radius: 5px;
 	border-color: #ccc;
 	background-color: #fff;
@@ -40,12 +40,12 @@ input:active{
 
 @media only screen and (max-width: 600px){
 	input{
-		width: 75%;
+		width: 80%;
 	}
 }
 
 @media only screen and (max-width: 1200px){
 	input{
-		width: 33%;
+		width: 50%;
 	}
 }
