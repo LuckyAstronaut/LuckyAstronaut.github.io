@@ -33,3 +33,10 @@ input:active{
 #text{
 	text-align: left;
 }
+
+@media only screen and (max-width: 1000px){
+	input{
+		float: left;
+		width: 100%;
+	}
+}
