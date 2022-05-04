@@ -40,6 +40,6 @@ input:active{
 
 @media only screen and (max-width: 600px){
 	input{
-		width: 50%;
+		width: 75%;
 	}
 }
