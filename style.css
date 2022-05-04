@@ -40,12 +40,12 @@ input:active{
 
 @media only screen and (max-width: 600px){
 	input{
-		width: 70%;
+		width: 74%;
 	}
 }
 
 @media only screen and (max-width: 1200px){
 	input{
-		width: 35%;
+		width: 33%;
 	}
 }
